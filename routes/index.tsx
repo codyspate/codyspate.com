@@ -7,14 +7,24 @@ export default function Home() {
     <div class="pb-8 mx-auto">
       <div class="max-w-screen-md mx-auto">
         <div className="flex gap-6 font-sans my-4 underline flex-row-reverse md:flex-row">
-          <a href="https://www.linkedin.com/in/cody-spate/">
+          <a
+            href="https://www.linkedin.com/in/cody-spate/"
+            aria-label="Go to Cody's LinkedIn profile"
+          >
             <FaLinkedinIn size={32} alt="LinkedIn logo" />
           </a>
-          <a href="https://github.com/codyspate">
+          <a
+            href="https://github.com/codyspate"
+            aria-label="Go to Cody's Github profile"
+          >
             <FaGithub size={32} alt="Github logo" />
           </a>
           <a href="/blog">
-            <FaBlog size={32} alt="Blog icon" />
+            <FaBlog
+              size={32}
+              alt="Blog icon"
+              aria-label="Check out Cody's blog"
+            />
           </a>
         </div>
         <div className="mb-6 flex">

@@ -5,9 +5,9 @@ export function PostCard(props: { post: Post }) {
     return (
         <div class="py-8 border(t gray-200)">
             <a class="sm:col-span-2" href={`/blog/${post.slug}`}>
-                <h3 class="text(3xl gray-900) font-bold">
+                <h2 class="text(3xl gray-900) font-bold">
                     {post.title}
-                </h3>
+                </h2>
                 <time class="text-gray-500 dark:text-gray-400">
                     {new Date(post.publishedAt).toLocaleDateString("en-us", {
                         year: "numeric",
