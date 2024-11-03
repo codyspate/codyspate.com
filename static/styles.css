@@ -13,3 +13,11 @@ body {
 h1, h2, h3, h4 {
     font-family: Inter, sans-serif;
 }
+body {
+    @media (prefers-color-scheme: dark) {
+        background-color: #0d1117;
+        color: #c9d1d9
+    }
+}
+
+

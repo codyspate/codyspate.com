@@ -1,7 +1,12 @@
 export default function Home() {
   return (
-    <div class="px-4 py-8 mx-auto">
+    <div class="pb-8 mx-auto">
       <div class="max-w-screen-md mx-auto">
+        <div className="flex gap-3 font-sans my-4 underline">
+          <a href="https://github.com/codyspate">Github</a>
+          <a href="https://www.linkedin.com/in/cody-spate/">LinkedIn</a>
+          <a href="/blog">Blog</a>
+        </div>
         <div className="mb-6 flex">
           <div className="grow">
             <h1 className="text-5xl mb-3  font-semibold">
@@ -10,9 +15,6 @@ export default function Home() {
             <h2 className="text-3xl font-medium">
               Software Engineer
             </h2>
-          </div>
-          <div className="grow-0">
-            <a href="/blog">Blog</a>
           </div>
         </div>
         <div className="flex flex-col gap-4 text-lg font-medium text-pretty">

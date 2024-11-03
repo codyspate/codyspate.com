@@ -22,11 +22,11 @@ export default function PostPage(props: PageProps<Post>) {
                 <style
                     dangerouslySetInnerHTML={{
                         __html:
-                            `${CSS} .markdown-body { font-family: Lora, serif; } .markdown-body p { font-size: 1.15rem;}`,
+                            `${CSS} .markdown-body { font-family: Lora, serif; background: transparent; } .markdown-body p { font-size: 1.15rem;}`,
                     }}
                 />
             </Head>
-            <main class="max-w-screen-md px-4 pt-16 mx-auto">
+            <main class="max-w-screen-md pt-6 pb-16 mx-auto">
                 <h1 class="text-5xl font-bold">{post.title}</h1>
                 <time class="text-gray-500">
                     {new Date(post.publishedAt).toLocaleDateString("en-us", {
@@ -36,6 +36,9 @@ export default function PostPage(props: PageProps<Post>) {
                     })}
                 </time>
                 <div
+                    data-color-mode="auto"
+                    data-dark-theme="dark"
+                    data-light-theme="light"
                     class="mt-8 markdown-body"
                     dangerouslySetInnerHTML={{ __html: render(post.content) }}
                 />

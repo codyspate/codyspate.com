@@ -1,5 +1,7 @@
 import { type PageProps } from "$fresh/server.ts";
-export default function App({ Component }: PageProps) {
+import { BreadCrumbs } from "../components/BreadCrumbs.tsx";
+export default function App(props: PageProps) {
+  console.log(props, "das app props");
   return (
     <html>
       <head>
@@ -8,9 +10,25 @@ export default function App({ Component }: PageProps) {
         <title>Cody Spate - Software Engineer</title>
         <link rel="preload" href="/styles.css" as="style" />
         <link rel="stylesheet" href="/styles.css" />
+        <link
+          rel="icon"
+          href="/logo-dark.svg"
+          type="image/svg"
+          media="(prefers-color-scheme: light)"
+        />
+
+        <link
+          rel="icon"
+          href="/logo-light.svg"
+          type="image/svg"
+          media="(prefers-color-scheme: dark)"
+        />
       </head>
       <body>
-        <Component />
+        <main className="max-w-screen-md mx-auto">
+          <BreadCrumbs path={props.url.pathname} />
+          <props.Component />
+        </main>
       </body>
     </html>
   );

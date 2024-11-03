@@ -57,7 +57,7 @@ posting "<#> years experience required". I even saw this for entry level
 positions. (?!?! <-- my thoughts exactly) I eventually found a posting for a
 junior dev with no experience needed ... "unpaid". Being a new civilian, I was
 very stressed at not having a job at the moment, and I did not want to start
-working somewhere that would cause me to put this goal of being and engineer on
+working somewhere that would cause me to put this goal of being an engineer on
 hold, so I went and interviewed for the unpaid position. I didn't know at the
 time, but this would end up being one of the best decision I ever made.
 
@@ -144,4 +144,4 @@ away with. I just figured, $18 was the going rate for people with my experience
 industry by exorbitant salaries or company perks. I was just having fun. All
 that said, I spent some time, and I learned what I was worth.
 
-This is long enough for one post. I'll share more on this story in the next one
+This is long enough for one post. I'll share more on this story in the next one.
