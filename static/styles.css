@@ -4,20 +4,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
-
-body {
-    font-family: Lora, serif;
-    text-rendering: optimizeLegibility;
-}
-
 h1, h2, h3, h4 {
     font-family: Inter, sans-serif;
 }
 body {
+    @apply subpixel-antialiased;
+    font-smooth: auto;
+    font-family: Lora, serif;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.01px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    background-color: #F4F1DE;
+    color: #3D405B;
     @media (prefers-color-scheme: dark) {
-        background-color: #0d1117;
-        color: #c9d1d9
+        background-color: #272830;
+        color: #F4F1DE
     }
+}
+
+a {
+    color: #81B29A;
 }
 
 

@@ -1,15 +1,27 @@
+import {
+  FaBlog,
+  FaGithub,
+  FaLinkedinIn,
+} from "https://deno.land/x/react_icons@0.1.0/fa/mod.ts";
+
 export default function Home() {
   return (
     <div class="pb-8 mx-auto">
       <div class="max-w-screen-md mx-auto">
-        <div className="flex gap-3 font-sans my-4 underline">
-          <a href="https://www.linkedin.com/in/cody-spate/">LinkedIn</a>
-          <a href="https://github.com/codyspate">Github</a>
-          <a href="/blog">Blog</a>
+        <div className="flex gap-6 font-sans my-4 underline flex-row-reverse md:flex-row">
+          <a href="https://www.linkedin.com/in/cody-spate/">
+            <FaLinkedinIn size={32} alt="LinkedIn logo" />
+          </a>
+          <a href="https://github.com/codyspate">
+            <FaGithub size={32} alt="Github logo" />
+          </a>
+          <a href="/blog">
+            <FaBlog size={32} alt="Blog icon" />
+          </a>
         </div>
         <div className="mb-6 flex">
           <div className="grow">
-            <h1 className="text-5xl mb-3  font-semibold">
+            <h1 className="text-5xl mb-3  font-semibold text-[#E07A5F]">
               Cody Spate
             </h1>
             <h2 className="text-3xl font-medium">

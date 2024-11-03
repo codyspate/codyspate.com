@@ -21,14 +21,19 @@ export default function PostPage(props: PageProps<Post>) {
             <Head>
                 <style
                     dangerouslySetInnerHTML={{
-                        __html:
-                            `${CSS} .markdown-body { font-family: Lora, serif; background: transparent; } .markdown-body p { font-size: 1.15rem;}`,
+                        __html: `${CSS} 
+                            .markdown-body { font-family: Lora, serif; background: transparent; } 
+                            .markdown-body p { font-size: 1.15rem;}
+                            [data-color-mode="auto"][data-dark-theme="dark"] {
+                                --color-fg-default: #F4F1DE
+                                --color-border-muted: #E07A5F
+                            }`,
                     }}
                 />
             </Head>
             <main class="max-w-screen-md pt-6 pb-16 mx-auto">
-                <h1 class="text-5xl font-bold">{post.title}</h1>
-                <time class="text-gray-500">
+                <h1 class="text-5xl font-bold mb-2">{post.title}</h1>
+                <time class="text-gray-500 dark:text-gray-400">
                     {new Date(post.publishedAt).toLocaleDateString("en-us", {
                         year: "numeric",
                         month: "long",

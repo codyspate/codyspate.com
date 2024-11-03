@@ -1,7 +1,6 @@
 import { type PageProps } from "$fresh/server.ts";
 import { BreadCrumbs } from "../components/BreadCrumbs.tsx";
 export default function App(props: PageProps) {
-  console.log(props, "das app props");
   return (
     <html>
       <head>
