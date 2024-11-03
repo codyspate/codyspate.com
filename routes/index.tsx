@@ -3,8 +3,8 @@ export default function Home() {
     <div class="pb-8 mx-auto">
       <div class="max-w-screen-md mx-auto">
         <div className="flex gap-3 font-sans my-4 underline">
-          <a href="https://github.com/codyspate">Github</a>
           <a href="https://www.linkedin.com/in/cody-spate/">LinkedIn</a>
+          <a href="https://github.com/codyspate">Github</a>
           <a href="/blog">Blog</a>
         </div>
         <div className="mb-6 flex">

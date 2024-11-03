@@ -25,7 +25,7 @@ export default function App(props: PageProps) {
         />
       </head>
       <body>
-        <main className="max-w-screen-md mx-auto">
+        <main className="max-w-screen-md mx-auto px-4 md:px-0">
           <BreadCrumbs path={props.url.pathname} />
           <props.Component />
         </main>
