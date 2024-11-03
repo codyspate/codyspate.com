@@ -2,9 +2,14 @@ import { type PageProps } from "$fresh/server.ts";
 import { BreadCrumbs } from "../components/BreadCrumbs.tsx";
 export default function App(props: PageProps) {
   return (
-    <html>
+    <html lang="en">
       <head>
         <meta charset="utf-8" />
+        <meta
+          name="description"
+          content="Cody Spate - Software engineer in the Sacramento, CA area"
+        />
+        <meta name="author" content="Cody Spate" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Cody Spate - Software Engineer</title>
         <link rel="preload" href="/styles.css" as="style" />
