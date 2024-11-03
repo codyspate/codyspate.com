@@ -9,9 +9,11 @@ export default function App(props: PageProps) {
           name="description"
           content="Cody Spate - Software engineer in the Sacramento, CA area"
         />
+        <meta http-equiv="Cache-control" content="public" />
         <meta name="author" content="Cody Spate" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Cody Spate - Software Engineer</title>
+        <link rel="canonical" href="https://codyspate.com" />
         <link rel="preload" href="/styles.css" as="style" />
         <link rel="stylesheet" href="/styles.css" />
         <link

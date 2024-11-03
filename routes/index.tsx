@@ -1,8 +1,6 @@
-import {
-  FaBlog,
-  FaGithub,
-  FaLinkedinIn,
-} from "https://deno.land/x/react_icons@0.1.0/fa/mod.ts";
+import { FaBlog } from "react-icons/fa/FaBlog.ts";
+import { FaLinkedinIn } from "react-icons/fa/FaLinkedinIn.ts";
+import { FaGithub } from "react-icons/fa/FaGithub.ts";
 
 export default function Home() {
   return (

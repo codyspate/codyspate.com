@@ -1,7 +1,5 @@
-import {
-    FaCaretRight,
-    FaHome,
-} from "https://deno.land/x/react_icons@0.1.0/fa/mod.ts";
+import { FaHome } from "react-icons/fa/FaHome.ts";
+import { FaCaretRight } from "react-icons/fa/FaCaretRight.ts";
 import { JSX } from "preact/jsx-runtime";
 export type BreadCrumbsProps = {
     path: string;
